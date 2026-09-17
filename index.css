@@ -99,3 +99,33 @@ a:hover {
 .nav__social:hover {
     color: var(--color-text);
 }
+
+.hero {
+    padding-bottom: 48px;
+    border-bottom: 1px solid var(--color-border);
+    margin-bottom: 48px;
+}
+
+.hero__avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.hero__name {
+    font-family: var(--font-serif);
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    color: var(--color-text);
+}
+
+.hero__tagline {
+    font-family: var(--font-serif);
+    font-size: 20px;
+    color: var(--color-text-muted);
+    font-weight: 400;
+}
