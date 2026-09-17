@@ -246,3 +246,37 @@ a:hover {
     font-size: 11px;
     padding: 3px 10px;
 }
+
+.footer {
+    border-top: 1px solid var(--color-border);
+    padding: 32px 0;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__copy {
+    font-family: var(--font-sans);
+    font-size: 13px;
+    color: var(--color-text-muted);
+}
+
+.footer__socials {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.footer__social {
+    color: var(--color-text-muted);
+    text-decoration: none;
+    transition: color 0.2s ease;
+    display: flex;
+}
+
+.footer__social:hover {
+    color: var(--color-text);
+}
