@@ -56,3 +56,46 @@ a:hover {
     background-color: var(--color-accent);
     color: #fff;
 }
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0 60px;
+}
+
+.nav__links {
+    display: flex;
+    gap: 24px;
+}
+
+.nav__link {
+    font-family: var(--font-sans);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: var(--color-text-muted);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.nav__link:hover {
+    color: var(--color-text);
+}
+
+.nav__socials {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.nav__social {
+    color: var(--color-text-muted);
+    text-decoration: none;
+    transition: color 0.2s ease;
+    display: flex;
+}
+
+.nav__social:hover {
+    color: var(--color-text);
+}
